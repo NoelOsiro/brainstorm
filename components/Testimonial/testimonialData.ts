@@ -5,34 +5,34 @@ import { Testimonial } from "@/types/testimonial";
 export const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Devid Smith",
-    designation: "Founter @democompany",
+    name: "Pupils assembling at the Assembly Point",
+    designation: "Brainstorm Junior Children's Centre, Kibera-Kenya",
     image: image1,
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "Pupils assembling at the Assembly Point with some teachers. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
     id: 2,
-    name: "Jhon Abraham",
-    designation: "Founter @democompany",
+    name: "Children having hot lunch",
+    designation: "Brainstorm Junior Children's Centre, Kibera-Kenya",
     image: image2,
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "Children having their hot lunch on desks due to lack of a dining hall. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi.",
   },
   {
     id: 3,
-    name: "Devid Smith",
-    designation: "Founter @democompany",
+    name: "Boys playing football on the playground",
+    designation: "Brainstorm Junior Children's Centre, Kibera-Kenya",
     image: image1,
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "Boys playing football on the playground during games. Convallis fringilla ante nibh non urna.",
   },
   {
     id: 4,
-    name: "Jhon Abraham",
-    designation: "Founter @democompany",
+    name: "Young children in baby care",
+    designation: "Brainstorm Junior Children's Centre, Kibera-Kenya",
     image: image2,
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi, convallis fringilla ante nibh non urna.",
+      "Young children in baby care sitting on the floor due to lack of facilities. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
 ];

@@ -8,7 +8,7 @@ import faqData from "./faqData";
 const FAQ = () => {
   const [activeFaq, setActiveFaq] = useState(1);
 
-  const handleFaqToggle = (id: number) => {
+  const handleFaqToggle = (id) => {
     activeFaq === id ? setActiveFaq(0) : setActiveFaq(id);
   };
 
@@ -38,7 +38,6 @@ const FAQ = () => {
                   opacity: 0,
                   x: -20,
                 },
-
                 visible: {
                   opacity: 1,
                   x: 0,
@@ -85,7 +84,6 @@ const FAQ = () => {
                   opacity: 0,
                   x: 20,
                 },
-
                 visible: {
                   opacity: 1,
                   x: 0,

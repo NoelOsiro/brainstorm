@@ -3,7 +3,6 @@ import Image from "next/image";
 import { useState } from "react";
 import FeaturesTabItem from "./FeaturesTabItem";
 import featuresTabData from "./featuresTabData";
-
 import { motion } from "framer-motion";
 
 const FeaturesTab = () => {
@@ -36,7 +35,6 @@ const FeaturesTab = () => {
                 opacity: 0,
                 y: -20,
               },
-
               visible: {
                 opacity: 1,
                 y: 0,
@@ -63,7 +61,7 @@ const FeaturesTab = () => {
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Clean User Interface
+                  Mission
                 </button>
               </div>
             </div>
@@ -82,7 +80,7 @@ const FeaturesTab = () => {
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Essential Business Pages
+                  Vision
                 </button>
               </div>
             </div>
@@ -101,7 +99,7 @@ const FeaturesTab = () => {
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Fully Functional Integrations
+                  Values
                 </button>
               </div>
             </div>
@@ -115,7 +113,6 @@ const FeaturesTab = () => {
                 opacity: 0,
                 y: -20,
               },
-
               visible: {
                 opacity: 1,
                 y: 0,

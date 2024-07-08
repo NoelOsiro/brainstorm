@@ -9,11 +9,11 @@ const Integration = () => {
       <section>
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           {/* <!-- Section Title Start --> */}
-          <SectionHeader
+           <SectionHeader
             headerInfo={{
               title: `INTEGRATIONS`,
-              subtitle: `Remotely Maintain Your Data, From Anywhere, Anytime.`,
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+              subtitle: `Seamlessly Connecting Support Systems for Holistic Development`,
+              description: `At Brainstorm Junior Children Centre, we integrate various services and support systems to ensure holistic development for our children. From quality education to health and nutrition programs, we strive to provide the best for our students.`,
             }}
           />
 
