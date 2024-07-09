@@ -13,7 +13,7 @@ const Integration = () => {
             headerInfo={{
               title: `INTEGRATIONS`,
               subtitle: `Seamlessly Connecting Support Systems for Holistic Development`,
-              description: `At Brainstorm Junior Children Centre, we integrate various services and support systems to ensure holistic development for our children. From quality education to health and nutrition programs, we strive to provide the best for our students.`,
+              description: `At Brainstorm Junior Children's Centre, we integrate various services and support systems to ensure holistic development for our children. From quality education to health and nutrition programs, we strive to provide the best for our students.`,
             }}
           />
 
@@ -59,8 +59,8 @@ const Integration = () => {
             >
               <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
                 <Image
-                  width={50}
-                  height={50}
+                  width={60}
+                  height={60}
                   src="./images/brand/brand-07.svg"
                   alt="Brand"
                 />
@@ -106,8 +106,8 @@ const Integration = () => {
             >
               <div className="inline-block rounded-[10px] bg-white p-4.5 shadow-solid-7 dark:bg-btndark">
                 <Image
-                  width={50}
-                  height={50}
+                  width={60}
+                  height={60}
                   src="./images/brand/brand-08.svg"
                   alt="Brand"
                 />

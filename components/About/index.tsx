@@ -28,15 +28,9 @@ const About = () => {
               className="animate_left relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
             >
               <Image
-                src="/images/about/about-light-01.png"
+                src="/images/about/about-dark-01.jpeg"
                 alt="About"
-                className="dark:hidden"
-                fill
-              />
-              <Image
-                src="/images/about/about-dark-01.png"
-                alt="About"
-                className="hidden dark:block"
+                className="rounded-lg"
                 fill
               />
             </motion.div>
@@ -64,13 +58,13 @@ const About = () => {
                 Empowering Children in Kibera
               </span>
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-                Comprehensive Support for
-                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">
-                  Holistic Development
+                Comprehensive Support for 
+                <span className="relative ml-2 inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">
+                   Holistic Development
                 </span>
               </h2>
               <p>
-                At Brainstorm Junior Children Centre, we provide quality education, nutritious meals, and a safe environment to foster the growth and development of children in Kibera.
+                At Brainstorm Junior Children's Centre, we provide quality education, nutritious meals, and a safe environment to foster the growth and development of children in Kibera.
               </p>
 
               <div className="mt-7.5 flex items-center gap-5">
@@ -175,15 +169,9 @@ const About = () => {
               className="animate_right relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
             >
               <Image
-                src="./images/about/about-light-02.svg"
+                src="/images/about/about-light-02.jpeg"
                 alt="About"
-                className="dark:hidden"
-                fill
-              />
-              <Image
-                src="./images/about/about-dark-02.svg"
-                alt="About"
-                className="hidden dark:block"
+                className="rounded-lg"
                 fill
               />
             </motion.div>

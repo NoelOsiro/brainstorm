@@ -13,7 +13,7 @@ import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
-  title: "Brainstorm Children Centre",
+  title: "Brainstorm Children's Centre",
   description: "Brainstorm Junior Children Centre, Kibera",
   // other metadata
 };

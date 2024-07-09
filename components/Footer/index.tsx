@@ -47,8 +47,13 @@ const Footer = () => {
                 </a>
 
                 <p className="mb-10 mt-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  FAILING TO PLAN IS
+                  PLANNING TO FAIL<br/>
+                  BE SMART! <br/>
+                  WORK SMART!<br/>
+                  REMAIN SMART
                 </p>
+                
 
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
                   contact
@@ -57,8 +62,14 @@ const Footer = () => {
                   href="#"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  brainstormcentre@gmail.com
+                   bstormjsch@gmail.com
+                   
                 </a>
+                <div className="flex flex-col justify-center items-centeer" >
+                  <a href="#">+254729474858</a>
+                  <a href="#">+254726 221581</a>
+                  <a href="#">+254731583808</a>
+                  </div>
               </motion.div>
 
               <div className="flex w-full flex-col gap-8 md:flex-row md:justify-between md:gap-0 lg:w-2/3 xl:w-7/12">
@@ -327,22 +338,22 @@ const Footer = () => {
               <ul className="flex items-center gap-5">
                 <li>
                   <a href="#" aria-label="social icon">
-                    <BsFacebook size={32} className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"/>
+                    <BsFacebook size={32} className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary" />
                   </a>
                 </li>
                 <li>
                   <a href="#" aria-label="social icon">
-                    <BsTwitter size={32} className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"/>
+                    <BsTwitter size={32} className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary" />
                   </a>
                 </li>
                 <li>
                   <a href="#" aria-label="social icon">
-                    <BsLinkedin size={32} className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"/>
+                    <BsLinkedin size={32} className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary" />
                   </a>
                 </li>
                 <li>
                   <a href="#" aria-label="social icon">
-                    <BsTiktok size={32} className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"/>
+                    <BsTiktok size={32} className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary" />
                   </a>
                 </li>
               </ul>

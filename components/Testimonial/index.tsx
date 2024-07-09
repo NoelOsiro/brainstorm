@@ -20,7 +20,7 @@ const Testimonial = () => {
           <div className="animate_top mx-auto text-center">
           <SectionHeader
             headerInfo={{
-              title: `What Our Parents Say`,
+              title: `What our Community Say`,
               subtitle: `Testimonials from Parents`,
               description: `Here's what parents are saying about Brainstorm Junior Children Centre.`,
             }}

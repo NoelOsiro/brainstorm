@@ -189,16 +189,21 @@ const Contact = () => {
                   Email Address
                 </h3>
                 <p>
-                  <a href="#">yourmail@domainname.com</a>
+                  <a href="#">bstormjsch@gmail.com
+                  </a>
                 </p>
               </div>
               <div>
                 <h4 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Phone Number
                 </h4>
-                <p>
-                  <a href="#">+254 123456789</a>
-                </p>
+
+                  <div className="flex flex-col justify-center items-centeer" >
+                  <a href="#">+254729474858</a>
+                  <a href="#">+254726 221581</a>
+                  <a href="#">+254731583808</a>
+                  </div>
+                  
               </div>
             </motion.div>
           </div>
