@@ -1,38 +1,40 @@
 import image1 from "@/public/images/user/user-01.png";
-import image2 from "@/public/images/user/user-02.png";
+import image2 from "@/public/images/user/user-03.jpeg";
+import image3 from "@/public/images/user/user-04.jpeg";
+import image4 from "@/public/images/user/user-05.jpeg";
 import { Testimonial } from "@/types/testimonial";
 
 export const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Pupils assembling at the Assembly Point",
-    designation: "Brainstorm Junior Children's Centre, Kibera-Kenya",
+    name: "Martin Wambua",
+    designation: "Teacher, Brainstorm Junior Children's Centre, Kibera-Kenya",
     image: image1,
     content:
-      "Pupils assembling at the Assembly Point with some teachers. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "As a teacher at Brainstorm Junior Children's Centre, I have witnessed firsthand the positive impact of our work on the children's lives. The joy and curiosity they bring to learning inspire me every day. We strive to provide them with the best education and support despite the challenges we face.",
   },
   {
     id: 2,
-    name: "Children having hot lunch",
-    designation: "Brainstorm Junior Children's Centre, Kibera-Kenya",
+    name: "James Mwangi",
+    designation: "Cook, Brainstorm Junior Children's Centre, Kibera-Kenya",
     image: image2,
     content:
-      "Children having their hot lunch on desks due to lack of a dining hall. Mauris hendrerit, ligula sit amet cursus tincidunt, lorem sem elementum nisi.",
+      "Working as a cook at Brainstorm Junior Children's Centre has been a rewarding experience. Ensuring that the children receive nutritious meals is a responsibility I take seriously. It's heartwarming to see their smiles and know that our efforts are making a difference in their health and happiness.",
   },
   {
     id: 3,
-    name: "Boys playing football on the playground",
-    designation: "Brainstorm Junior Children's Centre, Kibera-Kenya",
-    image: image1,
+    name: "Lucy Njeri",
+    designation: "Businesswoman, Kibera-Kenya",
+    image: image3,
     content:
-      "Boys playing football on the playground during games. Convallis fringilla ante nibh non urna.",
+      "As a local businesswoman, I have seen the positive changes brought about by the Brainstorm Junior Children's Centre. The support and education provided to the children have a ripple effect on the community, improving lives and fostering growth.",
   },
   {
     id: 4,
-    name: "Young children in baby care",
-    designation: "Brainstorm Junior Children's Centre, Kibera-Kenya",
-    image: image2,
+    name: "Samuel Otieno",
+    designation: "Widower, Kibera-Kenya",
+    image: image4,
     content:
-      "Young children in baby care sitting on the floor due to lack of facilities. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "After losing my wife, Brainstorm Junior Children's Centre has been a beacon of hope for me and my children. The care and support they provide have helped us navigate through tough times and look forward to a brighter future.",
   },
 ];

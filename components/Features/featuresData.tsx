@@ -38,7 +38,7 @@ const featuresData: Feature[] = [
   },
   {
     id: 6,
-    icon: "/images/icon/icon-06.svg",
+    icon: "/images/icon/icon-07.svg",
     title: "Holistic Development",
     description:
       "Focusing on the holistic development of children, including emotional and social growth.",
