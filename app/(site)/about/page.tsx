@@ -20,15 +20,12 @@ export default function Home() {
   return (
     <main>
       <Team />
-      <About />
       <FeaturesTab />
       <FunFact />
       <Integration />
       <CTA />
       <FAQ />
       <Testimonial />
-      <Contact />
-      <Blog />
     </main>
   );
 }
