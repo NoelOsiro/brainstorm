@@ -282,12 +282,12 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="/" className="hover:text-primary">
+                  <a href="/privacy" className="hover:text-primary">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="/" className="hover:text-primary">
+                  <a href="/contact" className="hover:text-primary">
                     Support
                   </a>
                 </li>
