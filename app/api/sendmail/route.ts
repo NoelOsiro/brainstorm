@@ -1,8 +1,9 @@
-import type { NextApiRequest, NextApiResponse } from 'next';
+
+import { NextRequest, NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 
-async function sendEmail(req: NextApiRequest, res: NextApiResponse) {
-  const { name, email, subject, phone, message } = req.body;
+export async function POST(req: NextRequest) {
+  const { name, email, subject, phone, message } = await req.json();
 
   // Create a Nodemailer transporter using SMTP transport
   let transporter = nodemailer.createTransport({
@@ -31,11 +32,11 @@ async function sendEmail(req: NextApiRequest, res: NextApiResponse) {
   try {
     await transporter.sendMail(mailOptions);
     console.log('Email sent successfully');
-    res.status(200).json({ success: true });
+    return NextResponse.json({ success: true,status: 200 });
   } catch (error) {
     console.error('Error sending email:', error);
-    res.status(500).json({ success: false, error: 'Failed to send email' });
+    NextResponse.json({ success: false, error: 'Failed to send email', status: 500});
   }
 }
 
-export default sendEmail;
+
