@@ -11,7 +11,7 @@ const menuData: Menu[] = [
     id: 2,
     title: "About Us",
     newTab: false,
-    path: "/#features",
+    path: "/about",
   },
   {
     id: 2.1,
@@ -21,32 +21,32 @@ const menuData: Menu[] = [
   },
   {
     id: 2.3,
-    title: "Our Support",
+    title: "Support Us",
     newTab: false,
-    path: "/docs",
+    path: "/donate",
   },
   {
     id: 3,
-    title: "Blog",
+    title: "Activities",
     newTab: false,
     submenu: [
       {
         id: 31,
-        title: "Blog Grid",
+        title: "Our blog",
         newTab: false,
         path: "/blog",
       },
       {
         id: 34,
-        title: "Sign In",
+        title: "Contact Us",
         newTab: false,
-        path: "/auth/signin",
+        path: "/support",
       },
       {
         id: 35,
-        title: "Sign Up",
+        title: "Gallery",
         newTab: false,
-        path: "/auth/signup",
+        path: "/error",
       },
       {
         id: 35,
@@ -58,7 +58,7 @@ const menuData: Menu[] = [
         id: 35.1,
         title: "Support",
         newTab: false,
-        path: "/support",
+        path: "/donate",
       },
       {
         id: 36,
@@ -67,13 +67,6 @@ const menuData: Menu[] = [
         path: "/error",
       },
     ],
-  },
-
-  {
-    id: 4,
-    title: "Contact Us",
-    newTab: false,
-    path: "/support",
   },
 ];
 
