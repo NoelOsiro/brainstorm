@@ -6,7 +6,7 @@ const Categories = () => (
       Categories
     </h4>
     <ul>
-      {["Blog", "Events", "Grants", "Lifestyle", "News", "Security"].map((category, index) => (
+      {["Education", "Success Stories", "Community", "Activities", "Empowerment", "Support"].map((category, index) => (
         <li key={index} className="mb-3 transition-all duration-300 last:mb-0 hover:text-primary">
           <a href="#">{category}</a>
         </li>

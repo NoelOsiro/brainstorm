@@ -1,4 +1,7 @@
-const SharePost = () => {
+interface TagProps {
+  tags: string[] | undefined;
+}
+const SharePost: React.FC<TagProps> = ({tags}) => {
   return (
     <>
       <div className="mt-11 flex flex-wrap gap-4 md:items-center md:justify-between md:gap-0">
@@ -105,16 +108,19 @@ const SharePost = () => {
             <p className="text-black dark:text-white">Tags:</p>
           </li>
           <li>
-            <a
+            {
+              tags?.map((tag,index)=>(
+                <a
               href="#"
               className="pr-2 duration-300 ease-in-out hover:text-primary"
+              key={index}
             >
-              #business
+              {tag}
             </a>
+              )
 
-            <a href="#" className="duration-300 ease-in-out hover:text-primary">
-              #saas
-            </a>
+              )
+            }
           </li>
         </ul>
       </div>

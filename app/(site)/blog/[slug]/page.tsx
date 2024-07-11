@@ -10,7 +10,7 @@ import BlogHeader from "@/components/Blog/BlogHeader";
 
 import { Blog } from "@/types/blog";
 import SearchForm from "@/components/Blog/SerachForm";
-import BlogContent from "@/components/Blog/Blogcontent";
+import BlogContent from "@/components/Blog/BlogContent";
 import RecentPosts from "@/components/Blog/RecentPosts";
 
 interface SingleBlogPageProps extends Blog {}
@@ -24,10 +24,10 @@ export async function generateStaticParams() {
 const SingleBlogPage = async ({ params }: { params: { slug: string } }) => {
   const data = await getPost(params.slug);
   const {
-    _id,
     title = "No title",
     mainImage,
     author,
+    tags,
     publishedAt = "Unknown date",
     category = "Uncategorized",
     metadata = "No metadata",
@@ -44,6 +44,7 @@ const SingleBlogPage = async ({ params }: { params: { slug: string } }) => {
             <Categories />
             <RecentPosts />
             <Tags />
+            <RelatedPost />
           </div>
           <div className="md:w-full lg:w-[68%]">
             { data ? (
@@ -57,11 +58,14 @@ const SingleBlogPage = async ({ params }: { params: { slug: string } }) => {
                   publishedAt={publishedAt}
                 />
                 <BlogContent body={body} additionalImages={additionalImages} />
-                <SharePost />
-                <RelatedPost />
+                <SharePost tags={tags} />
+                
               </div>
             ) : (
-              <p>Post not found</p>
+              <div className="animate_right">
+                <p className="mx-auto text-center">Post not found</p>
+                </div>
+              
             )}
           </div>
         </div>

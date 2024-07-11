@@ -9,7 +9,7 @@ interface BlogContentProps {
 const BlogContent: React.FC<BlogContentProps> = ({ body, additionalImages }) => (
   <>
     {body?.map((paragraph, index) => (
-      <p key={index} className="mb-5 text-base font-medium text-black dark:text-white">
+      <p key={index} className="mb-5 text-lead font-medium text-black dark:text-gray-300">
         {paragraph}
       </p>
     ))}
