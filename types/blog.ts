@@ -11,9 +11,11 @@ export type Blog = {
   title: string;
   slug?: any;
   metadata?: string;
-  body?: string;
+  body?: string[];
   mainImage?: any;
   author?: Author;
   tags?: string[];
+  category: string;
   publishedAt?: string;
+  additionalImages: { src: string; width: number; height: number; alt: string }[];
 };
