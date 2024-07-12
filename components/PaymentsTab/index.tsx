@@ -80,7 +80,7 @@ const PaymentsTab = () => {
               </div>
               <div className="md:w-3/5 lg:w-auto">
                 <button className="text-sm font-medium text-black dark:text-white xl:text-regular">
-                  Equity
+                  Bank Transfer
                 </button>
               </div>
             </div>
