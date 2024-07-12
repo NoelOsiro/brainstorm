@@ -3,7 +3,7 @@ import { PaymentTab } from "@/types/payment";
 import Image from "next/image";
 
 const FeaturesTabItem = ({ paymentTab }: { paymentTab : PaymentTab }) => {
-  const { title, account, name } = paymentTab ;
+  const { title, account, name,branchCode,swiftCode,bankCode } = paymentTab ;
 
   return (
     <>
@@ -14,6 +14,9 @@ const FeaturesTabItem = ({ paymentTab }: { paymentTab : PaymentTab }) => {
           </h2>
           <p className="mb-5"> Account: {account}</p>
           <p className="w-11/12">Account Name: {name}</p>
+          {branchCode && <p>Branch Code: {branchCode}</p>}
+          {swiftCode && <p>Swift Code: {swiftCode}</p>}
+          {bankCode && <p>Bank Code: {bankCode}</p>}
         </div>
       </div>
     </>
