@@ -49,7 +49,7 @@ const ProgramData: Program[] = [
     title: "Community Engagement: Brainstorm Junior's Outreach Programs",
     slug: "community-engagement-outreach-programs",
     metadata: "Read about the outreach programs conducted by Brainstorm Junior and their impact on the local community.",
-    mainImage: "/images/about/ed5.jpg",
+    mainImage: "/images/blog/blog-07.jpg",
     author: { name: "George Jarona", image: "/images/authors/gerald.jpg" },
     tags: ["Community", "Outreach"],
     category: "Community",
@@ -58,7 +58,9 @@ const ProgramData: Program[] = [
       "At Brainstorm Junior, we believe in giving back to the community. Our outreach programs are designed to support and uplift the local community through various initiatives.",
       "One of our key programs is the food distribution initiative, where we provide essential food supplies to families in need. This program has helped alleviate hunger and provided much-needed relief to many households.",
       "In addition to food distribution, we conduct educational workshops and health camps. These workshops cover topics such as hygiene, nutrition, and basic healthcare, empowering community members with knowledge and resources to improve their well-being.",
-      "Our outreach efforts have made a significant impact, fostering a sense of community and support among the residents. Through collaboration and collective efforts, we strive to create a positive and lasting change in the lives of those we serve."
+      "Our outreach efforts have made a significant impact, fostering a sense of community and support among the residents. Through collaboration and collective efforts, we strive to create a positive and lasting change in the lives of those we serve.",
+      "We are grateful to our volunteers, donors, and partners who make these programs possible and contribute to the well-being of our community."
+
     ],
     additionalImages: [
       { src: "/images/about/ed6.jpg", width: 350, height: 200, alt: "Student Success" },
