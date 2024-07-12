@@ -13,8 +13,11 @@ import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
   title: "Brainstorm Children's Centre",
-  description: "Brainstorm Junior Children Centre, Kibera",
-  // other metadata
+  description: "Brainstorm Junior Children's Centre, Kibera. A place where children learn, play and grow together.",
+  twitter: {
+    card: "summary_large_image",
+    site: "@brainstorm",
+  },
 };
 
 export default function Home() {

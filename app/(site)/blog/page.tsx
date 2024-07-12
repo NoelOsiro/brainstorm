@@ -3,9 +3,12 @@ import BlogItem from "@/components/Blog/BlogItem";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Page - Solid SaaS Boilerplate",
-  description: "This is Blog page for Solid Pro",
-  // other metadata
+  title: "Blog Page - Brainstorm Children's Centre",
+  description: "This is Blog page for Brainstorm Junior Children Centre",
+  twitter: {
+    card: "summary_large_image",
+    site: "@solid",
+  },
 };
 
 const BlogPage = async () => {
