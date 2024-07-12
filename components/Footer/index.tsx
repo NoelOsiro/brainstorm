@@ -35,18 +35,14 @@ const Footer = () => {
                     height={80}
                     src="/images/logo/logo-dark.png"
                     alt="Logo"
-                    className="dark:hidden"
                   />
-                  <Image
-                    width={180}
-                    height={80}
-                    src="/images/logo/logo-dark.png"
-                    alt="Logo"
-                    className="hidden dark:block"
-                  />
+                  
+                  <p  className="hidden text-black ml-2 dark:text-white md:block text-primary hover:text-primary md:text-lg font-medium">
+            Brainstorm Junior Children's Centre
+          </p>
                 </a>
 
-                <p className="mb-10 mt-5">
+                <p className="mb-10 mt-5 dark:text-white">
                   FAILING TO PLAN IS
                   PLANNING TO FAIL<br/>
                   BE SMART! <br/>

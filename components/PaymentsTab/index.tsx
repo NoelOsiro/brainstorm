@@ -27,6 +27,7 @@ const PaymentsTab = () => {
               alt="Dotted Shape"
             />
           </div>
+          
 
           {/* <!-- Tab Menues Start --> */}
           <motion.div

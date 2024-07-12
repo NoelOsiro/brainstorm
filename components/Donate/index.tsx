@@ -61,7 +61,14 @@ const Donate = () => {
                 Our official payment channels are listed below. You can also send us an email or give us a call to
                 <a href='/donate/#support' className="ml-1 text-blue-600 text-lg">Support </a> us.
               </p>
-              <PaymentsTab/>
+              <h3 className="mb-5 text-3xl font-bold text-black dark:text-white">
+                Foodstuff and Clothes Donation
+              </h3>
+              <p className="mb-10 text-sm text-black dark:text-white">
+                We are currently accepting donations of foodstuff and clothes for
+                the children. You can contact us for a drop off location.:
+              </p>
+              <PaymentsTab />
             </motion.div>
 
             <motion.div
@@ -106,10 +113,10 @@ const Donate = () => {
                   Phone Number
                 </h4>
 
-                  <div className="flex flex-col justify-center items-centeer" >
+                <div className="flex flex-col justify-center items-centeer" >
                   <a href="#">+254729474858</a>
-                  </div>
-                  
+                </div>
+
               </div>
             </motion.div>
           </div>
