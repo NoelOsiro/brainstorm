@@ -6,9 +6,26 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Donate Page - Brainstorm Children's Centre",
   description: "This is Donate page for Brainstorm Junior Children Centre",
-  twitter: {
-    card: "summary_large_image",
-    site: "@solid",
+  openGraph: {
+    title: "Donate Page - Brainstorm Children's Centre",
+    description: "This is Donate page for Brainstorm Junior Children Centre",
+    url: "https://brainstormcentre.co.ke/donate",
+    siteName: "Brainstorm Junior Children's Centre",
+    images: [
+      {
+        url: "https://brainstormcentre.co.ke/images/og.png", // Must be an absolute URL
+        width: 800,
+        height: 600,
+      },
+      {
+        url: "https://brainstormcentre.co.ke/images/og-alt.png", // Must be an absolute URL
+        width: 1800,
+        height: 1600,
+        alt: `Brainstorm Junior Children's Centre`,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
   },
 };
 
