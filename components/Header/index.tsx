@@ -24,9 +24,6 @@ const Header = () => {
       <div className="relative mx-auto max-w-c-1390 items-center justify-between px-4 md:px-8 xl:flex 2xl:px-0">
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <Logo/>
-          <Link href={'/'} className="p-4 md:p-0 text-center font-small text-black ml-2 dark:text-white md:block text-primary hover:text-primary md:text-lg md:font-medium">
-            Brainstorm Junior Children's Centre
-          </Link>
           {/* <!-- Hamburger Toggle BTN --> */}
           <HamburgerToggle
             navigationOpen={navigationOpen}
@@ -52,9 +49,9 @@ const Logo = () => (
     <Image
       src="/images/logo/logo-dark.png"
       alt="logo"
-      width={100}
+      width={140}
       height={40}
-      className="w-full sm:h-full h-16"
+      className="w-full sm:h-full h-16 mr-2"
     />
   </a>
 );

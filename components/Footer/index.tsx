@@ -27,27 +27,21 @@ const Footer = () => {
                 whileInView="visible"
                 transition={{ duration: 1, delay: 0.5 }}
                 viewport={{ once: true }}
-                className="animate_top w-1/2 lg:w-1/4"
+                className="animate_top lg:w-1/4"
               >
                 <a href="index.html" className="relative">
                   <Image
-                    width={180}
-                    height={80}
+                    width={210}
+                    height={200}
                     src="/images/logo/logo-dark.png"
                     alt="Logo"
+                    className="w-full"
                   />
                   
-                  <p  className="hidden text-black ml-2 dark:text-white md:block text-primary hover:text-primary md:text-lg font-medium">
-            Brainstorm Junior Children's Centre
-          </p>
-                </a>
+                   </a>
 
                 <p className="mb-10 mt-5 dark:text-white">
-                  FAILING TO PLAN IS
-                  PLANNING TO FAIL<br/>
-                  BE SMART! <br/>
-                  WORK SMART!<br/>
-                  REMAIN SMART
+                  BE SMART! WORK SMART! REMAIN SMART
                 </p>
                 
 
