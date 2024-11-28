@@ -3,9 +3,9 @@ import { PaymentTab } from "@/types/payment";
 const paymentsTabData: PaymentTab[] = [
   {
     id: "tabOne",
-    title: "MPesa Lipa na Mpesa Paybill",
-    account: "522522",
-    name: "13113933447",
+    title: "MPesa Account",
+    account: "0729 474858",
+    name: "George Jirona",
   },
   {
     id: "tabTwo",
