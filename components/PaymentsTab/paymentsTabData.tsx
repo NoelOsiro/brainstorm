@@ -10,17 +10,17 @@ const paymentsTabData: PaymentTab[] = [
   {
     id: "tabTwo",
     title: "Kenya Commercial  Bank",
-    account: "13113933447",
+    account: "1311393447",
     name: "Brainstorm Junior Children's Centre",
     branchCode: 307,
-    swiftCode: "KCBLKENX",
+    swiftCode: " KCBLKENX",
     bankCode: "01",
   },
   {
     id: "tabThree",
     title: "Paypal",
-    account: "bstormjsch@gmail.com",
-    name: "George Jarona",
+    account: "bstormjsch@gmail.com ",
+    name: "0729 474858",
     
   },
 ];
