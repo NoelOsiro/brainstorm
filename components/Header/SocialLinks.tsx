@@ -1,10 +1,8 @@
 import Link from 'next/link';
 import { BsFacebook, BsTwitterX } from 'react-icons/bs';
-import ThemeToggler from './ThemeToggler';
 
 const SocialLinks = ({navigationOpen}) => (
-  <div className="mt-7 flex items-center justify-between gap-6 xl:mt-0 hidden xl:flex">
-    <ThemeToggler navigationOpen={navigationOpen}/>
+  <div className="mt-7 flex items-center gap-6 xl:mt-0">
     <Link
       href="https://facebook.com/"
       className="text-regular font-medium text-waterloo hover:text-primary"

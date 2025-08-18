@@ -16,12 +16,14 @@ const FeaturesTab = () => {
           <div className="absolute -top-16 -z-1 mx-auto h-[350px] w-[90%]">
             <Image
               fill
+              sizes="(max-width: 768px) 90vw, (max-width: 1200px) 80vw, 1200px"
               className="dark:hidden"
               src="/images/shape/shape-dotted-light.svg"
               alt="Dotted Shape"
             />
             <Image
               fill
+              sizes="(max-width: 768px) 90vw, (max-width: 1200px) 80vw, 1200px"
               className="hidden dark:block"
               src="/images/shape/shape-dotted-dark.svg"
               alt="Dotted Shape"

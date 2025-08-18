@@ -1,32 +1,59 @@
 'use client'
 import { usePathname } from 'next/navigation';
+import { motion } from 'framer-motion';
 import menuData from './menuData';
 import NavItem from './NavItem';
 
-const NavMenu = ({ navigationOpen, setDropdownToggler, dropdownToggler }) => {
+const NavMenu = ({ navigationOpen, setNavigationOpen, setDropdownToggler, dropdownToggler }) => {
   const pathUrl = usePathname();
 
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1,
+        delayChildren: 0.2
+      }
+    }
+  };
+
+  const itemVariants = {
+    hidden: { y: 20, opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        duration: 0.3,
+        ease: "easeOut"
+      }
+    }
+  };
+
   return (
-    <div
-      className={`invisible h-0 w-full items-end justify-between xl:visible xl:flex xl:h-auto xl:w-full ${
-        navigationOpen &&
-        "navbar !visible mt-4 h-auto max-h-[400px] rounded-md bg-white p-7.5 shadow-solid-5 dark:bg-blacksection xl:h-auto xl:p-0 xl:shadow-none xl:dark:bg-transparent"
-      }`}
-    >
-      <nav>
-        <ul className="flex flex-col gap-5 xl:flex-row xl:items-center xl:gap-16">
-          {menuData.map((menuItem, key) => (
-            <NavItem
-              key={key}
-              menuItem={menuItem}
-              pathUrl={pathUrl}
-              setDropdownToggler={setDropdownToggler}
-              dropdownToggler={dropdownToggler}
-            />
-          ))}
-        </ul>
-      </nav>
-    </div>
+    <nav className="w-full">
+      <motion.ul 
+        variants={containerVariants}
+        initial="hidden"
+        animate="visible"
+        className={`
+          flex flex-col gap-6 xl:flex-row xl:items-center xl:justify-center xl:gap-8 2xl:gap-12
+          ${navigationOpen ? 'xl:flex' : ''}
+        `}
+      >
+        {menuData.map((menuItem, key) => (
+          <NavItem
+            key={key}
+            menuItem={menuItem}
+            pathUrl={pathUrl}
+            setNavigationOpen={setNavigationOpen}
+            setDropdownToggler={setDropdownToggler}
+            dropdownToggler={dropdownToggler}
+            variants={itemVariants}
+          />
+        ))}
+      </motion.ul>
+    </nav>
   );
 };
 

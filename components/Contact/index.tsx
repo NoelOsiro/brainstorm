@@ -67,6 +67,7 @@ const Contact = () => {
               alt="Dotted"
               className="dark:hidden"
               fill
+
             />
             <Image
               src="./images/shape/shape-dotted-dark.svg"

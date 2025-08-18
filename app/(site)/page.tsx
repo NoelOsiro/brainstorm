@@ -12,6 +12,7 @@ import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://brainstormcentre.co.ke'),
   title: "Brainstorm Junior Children's Centre",
   description: "Brainstorm Junior Children's Centre, Kibera. A place where children learn, play and grow together.",
   openGraph: {
@@ -21,12 +22,12 @@ export const metadata: Metadata = {
     siteName: "Brainstorm Junior Children's Centre",
     images: [
       {
-        url: 'https://brainstormcentre.co.ke/images/og.png', // Must be an absolute URL
+        url: '/images/og.png',
         width: 800,
         height: 600,
       },
       {
-        url: 'https://brainstormcentre.co.ke/images/og-alt.png', // Must be an absolute URL
+        url: '/images/og-alt.png',
         width: 1800,
         height: 1600,
         alt: `Brainstorm Junior Children's Centre`,
@@ -34,6 +35,12 @@ export const metadata: Metadata = {
     ],
     locale: 'en_US',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Brainstorm Junior Children's Centre",
+    description: "Brainstorm Junior Children's Centre, Kibera. A place where children learn, play and grow together.",
+    images: ['/images/og.png'],
   },
 };
 

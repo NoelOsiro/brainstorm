@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Error Page - Solid SaaS Boilerplate",
+  title: "Error Page - Brainstorm Children's Centre",
   description: "This is Error page for Solid Pro",
   // other metadata
 };

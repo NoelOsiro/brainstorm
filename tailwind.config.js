@@ -135,11 +135,70 @@ module.exports = {
           "0%, 100%": { transform: "translateY(100%)" },
           "50%": { transform: "translateY(0)" },
         },
+        float: {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-10px)" },
+        },
+        "pulse-gentle": {
+          "0%, 100%": { opacity: "1" },
+          "50%": { opacity: "0.8" },
+        },
+        "slide-in-up": {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(30px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
+        "slide-in-down": {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(-30px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
+        "fade-in-scale": {
+          "0%": {
+            opacity: "0",
+            transform: "scale(0.95)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "scale(1)",
+          },
+        },
+        "bounce-gentle": {
+          "0%, 100%": {
+            transform: "translateY(-5%)",
+            "animation-timing-function": "cubic-bezier(0.8, 0, 1, 1)",
+          },
+          "50%": {
+            transform: "translateY(0)",
+            "animation-timing-function": "cubic-bezier(0, 0, 0.2, 1)",
+          },
+        },
+        shimmer: {
+          "0%": { transform: "translateX(-100%)" },
+          "100%": { transform: "translateX(100%)" },
+        },
       },
       animation: {
         line1: "line 3s linear infinite",
         line2: "line 6s linear infinite",
         line3: "line 9s linear infinite",
+        float: "float 3s ease-in-out infinite",
+        "pulse-gentle": "pulse-gentle 2s ease-in-out infinite",
+        "slide-in-up": "slide-in-up 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards",
+        "slide-in-down": "slide-in-down 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards",
+        "fade-in-scale": "fade-in-scale 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards",
+        "bounce-gentle": "bounce-gentle 2s infinite",
+        shimmer: "shimmer 2s linear infinite",
       },
     },
   },

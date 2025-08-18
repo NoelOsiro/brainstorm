@@ -17,12 +17,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className="dark" suppressHydrationWarning>
       <body className={`dark:bg-black ${inter.className}`}>
         <ThemeProvider
           enableSystem={false}
           attribute="class"
-          defaultTheme="light"
+          defaultTheme="dark"
         >
           <Lines />
           <Header />

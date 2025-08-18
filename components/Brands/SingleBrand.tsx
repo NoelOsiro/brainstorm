@@ -32,12 +32,14 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
           src={image}
           alt={name}
           fill
+          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
         />
         <Image
           className="hidden opacity-50 transition-all duration-300 hover:opacity-100 dark:block"
           src={imageLight}
           alt={name}
           fill
+          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
         />
       </motion.a>
     </>

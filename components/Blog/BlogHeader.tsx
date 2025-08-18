@@ -14,7 +14,14 @@ interface BlogHeaderProps {
 const BlogHeader: React.FC<BlogHeaderProps> = ({ mainImage, title, category, metadata, author, publishedAt }) => (
   <>
     <div className="mb-8">
-      <Image src={mainImage} alt={title} width={750} height={450} className="w-full rounded-md" />
+      <Image 
+        src={mainImage} 
+        alt={title} 
+        width={750} 
+        height={450} 
+        className="w-full rounded-md object-cover"
+        style={{ height: "auto" }}
+      />
     </div>
     <div className="mb-5 text-lg font-semibold text-primary">{category}</div>
     <h3 className="mb-5 text-4xl font-semibold text-black dark:text-white">{title}</h3>
