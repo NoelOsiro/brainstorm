@@ -9,7 +9,7 @@ const featuresData: Team[] = [
     position: "Founder/Director",
     description:"Transitioning from a security guard to a skilled Early Childhood Development teacher ,merging educational proficiency with business acumen."  },
   {
-    id: 4,
+    id: 2,
     image: "/images/authors/glady.jpg",
     title: "Jackline",
     position: "Board Member",
@@ -25,7 +25,7 @@ const featuresData: Team[] = [
       "Creates a safe and nurturing environment where children can learn and thrive.",
   },
   {
-    id: 2,
+    id: 4,
     image: "/images/authors/tobias.jpg",
     title: "Pst Tobias Olonde",
     position: "School Chaplain & Board Member",
@@ -33,7 +33,7 @@ const featuresData: Team[] = [
       "Actively contributes as a hardworking Board member and holds certifications in Theology and Education.",
   },
   {
-    id: 3,
+    id: 5,
     image: "/images/authors/jacky.jpg",
     title: "Jacqueline Akoth",
     position: "Teacher",
@@ -41,12 +41,20 @@ const featuresData: Team[] = [
       "Certified teacher with a passion for nurturing children.",
   },
   {
-    id: 5,
+    id: 6,
     image: "/images/authors/pamela.jpg",
     title: "Pamela Nabwire",
     position: "Chairlady, Widows Group",
     description:
       "Promotes health and wellness through regular health check-ups and activities.",
+  },
+  {
+    id: 7,
+    image: "/images/authors/moses.jpg",
+    title: "Moses Omondi Odhiambo",
+    position: "Teacher",
+    description:
+      "A passionate teacher, Board Member who has been at Brainstorm for more than 5 years",
   },
 ];
 
